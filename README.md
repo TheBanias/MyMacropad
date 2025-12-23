@@ -8,7 +8,7 @@ A 4–key macropad based on a **Seeed Studio XIAO RP2040**, designed for quick s
 
 Screenshot of the complete hackpad (assembled):
 
-![Hackpad overview](CAD/macropad.png)
+![Hackpad overview](CAD/macropad_montado.png)
 
 ---
 
