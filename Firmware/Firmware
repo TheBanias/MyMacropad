@@ -7,54 +7,71 @@ from kmk.modules.macros import Macros, Press, Release, Tap
 
 keyboard = KMKKeyboard()
 
-# Módulo de macros
 macros = Macros()
 keyboard.modules.append(macros)
 
-# Pines XIAO RP2040 (botones entre estos pines y GND)
-PINS = [board.D0, board.D1, board.D2, board.D3]
+# 6 botones: D0–D5
+PINS = [board.D0, board.D1, board.D2, board.D3, board.D4, board.D5]
 
 keyboard.matrix = KeysScanner(
     pins=PINS,
-    value_when_pressed=False,  # LOW cuando pulsado
+    value_when_pressed=False,  # botón a GND
 )
 
-# === MACROS PARA WINDOWS 10 ===
+# --- Macros existentes ---
 
-# Botón 1 (D0): Nueva pestaña (Chrome/Edge/Firefox): CTRL + T
+# D0: nueva pestaña navegador
 NEW_TAB = KC.MACRO(
     Press(KC.LCTRL),
     Tap(KC.T),
     Release(KC.LCTRL),
 )
 
-# Botón 2 (D1): Captura pantalla (guarda en Imágenes\Capturas)
+# D1: captura pantalla (WIN + PRINTSCREEN)
 SCREENSHOT = KC.MACRO(
     Press(KC.LGUI),
     Tap(KC.PSCR),
     Release(KC.LGUI),
 )
 
-# Botón 3 (D2): Abrir Steam (anclado en barra tareas posición 1)
+# D2: abrir Steam (WIN + 1)
 STEAM = KC.MACRO(
     Press(KC.LGUI),
     Tap(KC.N1),
     Release(KC.LGUI),
 )
 
-# Botón 4 (D3): Abrir Discord (anclado posición 2)
+# D3: abrir Discord (WIN + 2)
 DISCORD = KC.MACRO(
     Press(KC.LGUI),
     Tap(KC.N2),
     Release(KC.LGUI),
 )
 
+# --- Nuevas macros ---
+
+# D4: abrir correo (app de correo anclada como 3.er icono)
+MAIL_APP = KC.MACRO(
+    Press(KC.LGUI),
+    Tap(KC.N3),
+    Release(KC.LGUI),
+)
+
+# D5: abrir Perplexity (atajo/perfil anclado como 4.º icono)
+PERPLEXITY = KC.MACRO(
+    Press(KC.LGUI),
+    Tap(KC.N4),
+    Release(KC.LGUI),
+)
+
 keyboard.keymap = [
     [
-        NEW_TAB,    # D0
-        SCREENSHOT, # D1  
-        STEAM,      # D2
-        DISCORD,    # D3
+        NEW_TAB,     # D0
+        SCREENSHOT,  # D1
+        STEAM,       # D2
+        DISCORD,     # D3
+        MAIL_APP,    # D4
+        PERPLEXITY,  # D5
     ]
 ]
 

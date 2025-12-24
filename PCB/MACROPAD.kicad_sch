@@ -1247,16 +1247,22 @@
 		(uuid "15a2ccd0-2c3e-4fef-98e7-f98da5629549")
 	)
 	(junction
+		(at 129.54 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b98b434-d793-49cb-b374-020ec487b9a4")
+	)
+	(junction
 		(at 184.15 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2edfa046-6977-4258-b871-9e783e142128")
 	)
 	(junction
-		(at 129.54 124.46)
+		(at 129.54 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "68e38a59-28c2-4399-8f9f-ed6b1dc8e07c")
+		(uuid "566d6583-2167-454a-9961-7f0647589f0a")
 	)
 	(junction
 		(at 129.54 104.14)
@@ -1265,10 +1271,26 @@
 		(uuid "9dbbec87-dca2-47e2-9fd0-b286253d2ea8")
 	)
 	(junction
+		(at 129.54 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e401c748-8220-4aeb-85f0-22dda64d8e9e")
+	)
+	(junction
 		(at 129.54 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff3db022-3b30-49c1-8a4b-a97e29e5c897")
+	)
+	(wire
+		(pts
+			(xy 139.7 146.05) (xy 158.75 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a84f8e0-6a7b-48e4-a5ca-2c146aab2a6d")
 	)
 	(wire
 		(pts
@@ -1312,6 +1334,26 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 146.05) (xy 129.54 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e78deb4-bed0-41f7-9e04-eaa7a99d3720")
+	)
+	(wire
+		(pts
+			(xy 156.21 114.3) (xy 158.75 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28388aee-f7bf-4a5b-9dc8-44094db786d4")
+	)
+	(wire
+		(pts
 			(xy 146.05 127) (xy 198.12 127)
 		)
 		(stroke
@@ -1352,16 +1394,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 124.46) (xy 129.54 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37f08ecb-858c-4f6a-bce5-738d9410d878")
-	)
-	(wire
-		(pts
 			(xy 129.54 114.3) (xy 129.54 124.46)
 		)
 		(stroke
@@ -1379,6 +1411,16 @@
 			(type default)
 		)
 		(uuid "4301a30b-80f2-4b68-85e8-1b96d802a622")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 129.54 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e24908d-d527-4af8-ab3c-48c46d8d1982")
 	)
 	(wire
 		(pts
@@ -1409,6 +1451,26 @@
 			(type default)
 		)
 		(uuid "5a861b0f-58a3-40df-8904-907381ff1789")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 129.54 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ede4d10-7f9b-4297-91d3-8f315a404186")
+	)
+	(wire
+		(pts
+			(xy 139.7 134.62) (xy 156.21 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7416d2e6-6d86-4135-97b4-1b52a94b626f")
 	)
 	(wire
 		(pts
@@ -1502,6 +1564,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 146.05) (xy 158.75 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b229df81-b2e0-46b4-ae2a-4eede03c792c")
+	)
+	(wire
+		(pts
 			(xy 129.54 104.14) (xy 129.54 114.3)
 		)
 		(stroke
@@ -1559,6 +1631,16 @@
 			(type default)
 		)
 		(uuid "fa69518f-dbf0-43f3-93fb-d1899ffb5241")
+	)
+	(wire
+		(pts
+			(xy 156.21 134.62) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6ac804-f86c-4fb8-a96b-82ad0b283c70")
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -1840,6 +1922,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 129.54 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4702bd36-1931-4c97-aa54-37f2bee81cd5")
+		(property "Reference" "#PWR03"
+			(at 129.54 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549df55c-1685-4043-8ef8-d64b71731e43")
+		)
+		(instances
+			(project ""
+				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 184.15 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1966,72 +2114,6 @@
 			(project ""
 				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69048d36-f848-4d35-90f3-09152d01521f")
-		(property "Reference" "#PWR03"
-			(at 129.54 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "696840f3-f7f6-4220-ad47-7ac79c38212f")
-		)
-		(instances
-			(project ""
-				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2280,6 +2362,142 @@
 			(project ""
 				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0026782-ca91-4a88-a267-34495280c735")
+		(property "Reference" "SW5"
+			(at 134.62 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f1246b0-b56a-480d-9a09-4fb5316b9dd9")
+		)
+		(pin "2"
+			(uuid "bbe2f7d0-c6b7-46b2-8813-0635c6d3a1ee")
+		)
+		(instances
+			(project ""
+				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
+					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 134.62 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbd60756-421a-4bcb-8cbf-b6b00286ea1a")
+		(property "Reference" "SW6"
+			(at 134.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c53ceddb-77ec-42ec-9ec2-f8e1a457ca63")
+		)
+		(pin "1"
+			(uuid "0014484f-5f69-4abb-8b88-549c1cc7781e")
+		)
+		(instances
+			(project ""
+				(path "/81ae78b7-c441-4001-80b9-8d24454f926c"
+					(reference "SW6")
 					(unit 1)
 				)
 			)
