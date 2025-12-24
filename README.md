@@ -1,6 +1,6 @@
 # MyMacropad
 
-A 4–key macropad based on a **Seeed Studio XIAO RP2040**, designed for quick shortcuts on Windows 10: open a new browser tab, take screenshots, and launch Steam and Discord.
+A 6–key macropad based on a **Seeed Studio XIAO RP2040**, designed for quick shortcuts on Windows 10: open a new browser tab, take screenshots, and launch Steam and Discord.
 
 ---
 
