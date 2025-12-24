@@ -48,7 +48,7 @@ The image below shows the overall case geometry and how the plate and switches f
 |-----|-----------------------------------|--------------------------------------------|
 | 1   | Seeed Studio **XIAO RP2040**      | Main microcontroller board                 |
 | 4   | Mechanical key switch (MX style)  | Any MX‑compatible switch                   |
-| 4   | Keycaps                           | MX‑compatible                              |
+| 6   | Keycaps                           | MX‑compatible                              |
 | 1   | Custom PCB (MACROPAD.kicad_pcb)   | From `PCB/` folder                         |
 | 1   | 3D printed case (base + top)      | From `CAD/macropad.step` / `Macropad_top.step` |
 | 4   | M3 screws (and inserts, optional) | For mounting the case                      |
